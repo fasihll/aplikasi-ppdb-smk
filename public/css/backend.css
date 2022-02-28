@@ -1,0 +1,55 @@
+  *{
+      margin: 0;
+      padding: 0;
+  }
+.sidebar{
+    width: 250px;
+    background-color: rgb(0, 110, 255);
+    color: white;
+    min-height: 100vh;
+}
+.judul{
+    line-height: 40px;
+    font-weight: bold;
+}
+.content{
+    width: 100%;
+}
+.img img{
+    border: 3px white solid;
+    margin-right: 10px;
+}
+.profil{
+    display: block;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: 1px rgba(255, 255, 255, 0.405) solid;
+}
+.sidebar ul li a:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(5, 103, 232);
+}
+.sidebar ul li a{
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    background-color: rgba(0, 110, 255, 0.803);
+}
+.sidebar ul ul li a {
+    display: block;
+    padding-left: 40px;
+}
+.sidebar ul ul {
+    display: none;
+}
+.sidebar ul ul.show {
+    display: block;
+}
+.sidebar ul li span {
+    float: right;
+    margin-top: 5px;
+}
